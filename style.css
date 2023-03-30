@@ -1,0 +1,64 @@
+body{
+margin: 0;
+background: linear-gradient( to left bottom, lightpink 0, lightblue
+);
+display:flex;
+min-height: 100vh;
+justify-content: center;
+align-items: center;
+font-family: "Open Sans", sans-serif; ;
+}
+
+.container{
+  
+    min-height:100%;
+    background:linear-gradient(0deg, rgba(255, 255, 255, .3), rgba(255, 0, 150, 0.3)), url(bg2.jpg);
+    background-size:cover;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px ;
+    box-shadow: 0 10px 10px rgba(0, 0, 0,.3);
+    margin:5px;
+    color: white;
+    font-weight: bold;
+
+     
+}
+.heading{
+font-size: 30px;
+
+}
+.input{
+    padding: 10px 20px;
+    font-size: 18px;
+    background: rgba(255, 255, 255, .4);
+    border-color:rgba(255, 255, 255, .5);
+    margin: 10px;
+    color:white;
+
+}
+
+.btn{
+    background-color: lightpink;
+    border:none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: 20px;
+    box-shadow: 0 0 4px rgba(0, 0, 0,.3);
+    cursor: pointer;
+
+}
+
+.btn:hover{
+     background-color: purple;
+    transition: all 300ms ease;
+    color: white;
+}
+.info-text{
+font-size: 20px;
+font-weight: bold;
+color: white;
+
+}

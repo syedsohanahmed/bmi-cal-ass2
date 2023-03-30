@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>BMI Calculator</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+</head>                                                               
+<div class="container">
+
+<h1 class="heading">BMI Calculator By Sohan</h1>
+Your Height (CM):
+<input type="number" class="input" id="heightInput" name="height" placeholder="Enter your Height in CM" required>
+Your Weight(Kg):
+<input type="number" class="input" id="weightInput" name="weight" placeholder="Enter your Weight in Kg" required>
+<button class="btn" id="calculateBtn">Calculate BMI</button>
+Your BMI Result:
+<input disabled type="text" class="input" id="bmi-result">
+ <h4 class="info-text"> Weight Condition:<span id ="weight-condition"></span></h4>
+</div>
+
+<body>
+<script src="script.js"></script>
+    
+</body>
+</html>
